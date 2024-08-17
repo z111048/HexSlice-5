@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand bg-gray-100 w296 vh-100 align-items-start position-fixed top-0 py-0">
+  <div class="container-fluid flex-column h-100 p-0">
+    <a class="d-block w-100 mb-32" href="#">
+      <img src="../assets/images/logo-ANSWER.svg" alt="logo-ANSWER" class="ms-32 mt-32" />
+    </a>
+
+    <ul class="navbar-nav flex-column w-100">
+      <li class="nav-item mb-3">
+        <a class="py-1 gray-900 fw-bold nav-link text-success-hover" href="#">
+          <span class="material-symbols-outlined ms-32 align-bottom me-3"> assessment </span>
+          Dashboard
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="py-1 gray-900 fw-bold nav-link text-success-hover" href="#">
+          <span class="material-symbols-outlined ms-32 align-bottom me-3"> question_answer </span>
+          Question
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a
+          class="py-1 gray-900 fw-bold nav-link text-success-hover border-3 <%= page === 'assignment' ? 'active border-start border-success text-success' : '' %>"
+          href="index.html">
+          <span class="material-symbols-outlined ms-32 align-bottom me-3"> assignment </span>
+          Assignment
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="py-1 gray-900 fw-bold nav-link text-success-hover" href="#">
+          <span class="material-symbols-outlined ms-32 align-bottom me-3"> video_library </span>
+          Course
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a
+          class="py-1 gray-900 fw-bold nav-link text-success-hover border-3 <%= page === 'admin' ? 'active border-start border-success text-success' : '' %>"
+          href="admin.html">
+          <span class="material-symbols-outlined ms-32 align-bottom me-3"> supervisor_account </span>
+          Admin
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="py-1 gray-900 fw-bold nav-link text-success-hover" href="#">
+          <span class="material-symbols-outlined ms-32 align-bottom me-3"> settings </span>
+          Settings
+        </a>
+      </li>
+    </ul>
+
+    <div class="d-flex mt-auto mb-32">
+      <div class="flex-shrink-0">
+        <img
+          src="../assets/images/andychen.jpeg"
+          alt="andychen"
+          width="48"
+          height="48"
+          class="rounded-circle object-fit-cover" />
+      </div>
+      <div class="flex-grow-1 ms-3">
+        <p class="gray-900 fw-bold">Andy Chen</p>
+        <a href="mailto:andy0401@mail.com" class="gray-600 fs-14">andy0401@mail.com</a>
+      </div>
+    </div>
+  </div>
+</nav>
